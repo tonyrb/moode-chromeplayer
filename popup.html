@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Moode Remote Control</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .volume-controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .now-playing {
+            text-align: center;
+            margin: 15px 0;
+            padding: 10px;
+            background: #f5f5f5;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #ffffff;
+            font-size: 16px;
+            min-width: 50px;
+            transition: background-color 0.2s;
+        }
+        button:hover {
+            background: #f0f0f0;
+        }
+        #currentTrack {
+            margin: 5px 0;
+            font-size: 16px;
+            word-wrap: break-word;
+        }
+        #volume {
+            margin: 5px 0;
+            color: #666;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="now-playing">
+        <h3 id="currentTrack">Not Playing</h3>
+        <p id="volume">Volume: --</p>
+    </div>
+    
+    <div class="controls">
+        <button id="prev">⏮</button>
+        <button id="playPause">▶️</button>
+        <button id="next">⏭</button>
+    </div>
+    
+    <div class="volume-controls">
+        <button id="volumeDown">-</button>
+        <button id="volumeUp">+</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
