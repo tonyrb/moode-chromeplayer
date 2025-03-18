@@ -12,3 +12,9 @@ Add as well custom icon48.png & icon128.png to show the icon you want to have.
 
 moode audio icon is available here:
 https://i.imgur.com/PycO7L6.png
+
+Player currently look like this:
+
+https://i.imgur.com/lvGnN1Z.png
+
+![Alt text]([url-of-your-image](https://i.imgur.com/lvGnN1Z.png))
