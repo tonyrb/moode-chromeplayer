@@ -16,5 +16,3 @@ https://i.imgur.com/PycO7L6.png
 Player currently look like this:
 
 https://i.imgur.com/lvGnN1Z.png
-
-![Alt text]([url-of-your-image](https://i.imgur.com/lvGnN1Z.png) "Image title")
