@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Moode Remote Control",
+    "version": "1.0",
+    "description": "Control your Moode audio player",
+    "permissions": ["activeTab"],
+    "host_permissions": ["http://moode.local/*"],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
