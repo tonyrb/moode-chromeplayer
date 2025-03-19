@@ -14,7 +14,7 @@ async function play() {
 
 async function stop() {
     try {
-        const response = await fetch(`${moodeUrl}/command/?cmd=stop`);
+        const response = await fetch(`${moodeUrl}/command/?cmd=pause`);
         return response.status === 200;
     } catch (error) {
         console.error('Error stopping:', error);
